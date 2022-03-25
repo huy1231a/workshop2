@@ -1,0 +1,38 @@
+cách dùng terminorl: 
+nodejs -v
+để kiểm tra xem có cài được chưa 
+
+npm (node pagekit menegenmant) npm -v
+để kiểm tra xem có dùng được nodejs hay không 
+
++ cách để khởi tạo một nodeJS
+ b1: gõ terminal sau đó gõ npm init để khởi tạo 1 file nodejs
+ b2: xuất hiện dòng lệnh thì gõ enter
+ --> git reponsity = truy cập vào github tạo 1 file mở 
+ b3: gõ dòng lệnh npm install express để cài đặt express
+ b4: gõ lệnh xuất file nodejs:
+	const : express = require ('express 4.17.1 ')
+	cú pháp import 1 thư viện vào 
+	const app = express()
+	trả về 1 thử viện để làm websie
+	const port = 3000
+
+	app.get('/' req , res )	==> res.send ("Hello World ! ")
+	--> định nghĩa đường đi đến sever 
+
+	app.listen(port , () ==> console.log ('example app listening at http://localhost:$port'))  
+ b5: chạy file nodeJS:
+ vào terminal gõ node index.js xong bấm enter sẽ --> http://localhost:3000/
+  
+
+note: nếu thay đổi "app.get('/' req , res )	==> res.send ("Hello World ! ")" thành "app.get('/trang-chu' req , res )	==> res.send ("Hello World ! ")"
+thì --> http://localhost:3000/trang-chu
+
+
+
+
++ Nodemon : lắng nghe sự thay đổi trong sourcode để không phải thoát ra khỏi sever
+
+
++ template engine (handlebars)
+
